@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AboutMeProject</string>
+    <string name="nameView">Josue Dilmo dos Santos</string>
+    <string name="emailView">24061@student.dorset-college.ie</string>
+    <string name="introView">type some information here</string>
+    <string name="copyrightInfo">© Copyright Josue Santos 2022, Built with Android Studio</string>
+    <string name="btnEducation">Education</string>
+    <string name="btnSkill">Skills</string>
+    <string name="btnHobbie">Hobbies</string>
+    <string name="btnAchievement">Achievements</string>
+</resources>
