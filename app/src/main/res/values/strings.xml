@@ -6,6 +6,6 @@
     <string name="copyrightInfo">© Copyright Josue Santos 2022, Built with Android Studio</string>
     <string name="btnEducation">Education</string>
     <string name="btnSkill">Skills</string>
-    <string name="btnHobbie">Hobbies</string>
+    <string name="btnHobbies">Hobbies</string>
     <string name="btnAchievement">Achievements</string>
 </resources>
