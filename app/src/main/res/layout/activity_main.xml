@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    android:gravity="end"
     tools:context=".MainActivity">
 
-
-        <TextView
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:shapeAppearanceOverlay="@style/formatCircular"
+        app:srcCompat="@drawable/JosueSantos" />
+    <TextView
             android:id="@+id/nameView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="top"
+            android:layout_gravity="center"
             android:padding="10dp"
             android:fontFamily="sans-serif"
             android:text="@string/nameView"
@@ -23,10 +30,9 @@
 
         <TextView
             android:id="@+id/emailView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:padding="10dp"
+            android:layout_gravity="center"
             android:fontFamily="sans-serif"
             android:text="@string/emailView"
             android:textColor="#000000"
@@ -106,7 +112,7 @@
 
     <TextView
         android:id="@+id/copyrightView"
-        android:layout_width="220dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textAlignment="center"
