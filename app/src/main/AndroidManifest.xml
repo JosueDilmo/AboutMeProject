@@ -19,6 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".EducationActivity" android:label="Education" />
+        <activity android:name="SkillsActivity" android:label="Skills" />
+        <activity android:name=".HobbiesActivity" android:label="Hobbies" />
+        <activity android:name=".AchievementsActivity" android:label="Achievements" />
+
     </application>
 
 </manifest>

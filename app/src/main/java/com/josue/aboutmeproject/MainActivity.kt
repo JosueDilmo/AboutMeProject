@@ -15,5 +15,23 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, EducationActivity::class.java)
             startActivity(intent)
         }
+
+        btnSkill.setOnClickListener{
+            val intent = Intent(this, SkillsActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnHobbies.setOnClickListener{
+            val intent = Intent(this, HobbiesActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnAchievement.setOnClickListener{
+            val intent = Intent(this, AchievementsActivity::class.java)
+            startActivity(intent)
+        }
+
     }
+
+
 }
