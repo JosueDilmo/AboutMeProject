@@ -118,7 +118,6 @@
         android:textAlignment="center"
         android:paddingTop="10dp"
         android:text="@string/copyrightInfo"
-        android:textColor="#887973"
         android:textStyle="bold"
         android:textSize="12sp"/>
 
