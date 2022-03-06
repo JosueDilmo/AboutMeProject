@@ -34,15 +34,15 @@
 1. - [x] Main Activity (or Launcher Activity)
 2. - [x] Button Links open new Activity
 3. - [x] Home icon opens Main Activity from back-stack instead of creating newly
-4. - [ ] Exit Button finishes the activity and closes the app
+4. - [x] Exit Button finishes the activity and closes the app
 5. - [x] Text is not hardcoded in the layout but is present in "strings" resources xml file
 ### Image Assets:
-1. - [ ] Images (Raster) are used
-2. - [ ] Vector icons (inbuilt material icons) are used
+1. - [x] Images (Raster) are used
+2. - [x] Vector icons (inbuilt material icons) are used
 3. - [ ] SVG icon is used
 ### Layout and Design:
 1. - [x] All text presented should be clear and legible and should have sufficient contrast (Hint: Dark Gray Text on Dark Blue background is bad)
-2. - [ ] All activities should contain ScrollViews to display lengthy content
+2. - [x] All activities should contain ScrollViews to display lengthy content
 ### In Main Activity: 
 1. - [x] Basic details are centered horizontally
 2. - [x] Photo has at least 5dp margin on all sides
@@ -50,19 +50,19 @@
 ### Copyright Text: 
 1. - [x] has a small font size
 2. - [x] has dark gray color
-3. - [ ] has a top padding 10dp with a top gray border of 1dp (to separate it out from the main content)
+3. - [x] has a top padding 10dp with a top gray border of 1dp (to separate it out from the main content)
 ### In all 4 extra activities: 
-1. - [ ] title row is at the top of the app and does not scroll
-2. - [ ] title row has a dark background (and hence white/light colored text and icon)
-3. - [ ] button row is at the bottom of the app and does not scroll
-4. - [ ] button row has 3 buttons (or 2 buttons) are present in one row with at least 5dp space in between them
-5. - [ ] button row spans full width of the app (i.e. each button's width will be set based on app's width)
-6. - [ ] icon and title are displayed on top and in one row horizontally centered. Contents inside this row should be vertically aligned in the centre (while the row itself is at the top of the page)
+1. - [x] title row is at the top of the app and does not scroll
+2. - [x] title row has a dark background (and hence white/light colored text and icon)
+3. - [x] button row is at the bottom of the app and does not scroll
+4. - [x] button row has 3 buttons (or 2 buttons) are present in one row with at least 5dp space in between them
+5. - [x] button row spans full width of the app (i.e. each button's width will be set based on app's width)
+6. - [x] icon and title are displayed on top and in one row horizontally centered. Contents inside this row should be vertically aligned in the centre (while the row itself is at the top of the page)
 ### Coding Practices (Hint: Check online if you don't know what the right/best practice is):
-1. - [ ] Variable and File Naming conventions are followed
+1. - [x] Variable and File Naming conventions are followed
 2. - [ ] Code is properly indented
-3. - [ ] Right File Structure is followed (e.g. Layout xml files placed directly under resources directory is bad, place it in "layout" folder instead)
+3. - [x] Right File Structure is followed (e.g. Layout xml files placed directly under resources directory is bad, place it in "layout" folder instead)
 ### Hard:
-1. - [ ] Use at least one FrameLayout as a separator e.g. to separate two LinearLayouts or TextViews (Hint: Set height 1dp with a light gray background)
-2. - [ ] Show both icons and text in buttons (except home icon)
+1. - [x] Use at least one FrameLayout as a separator e.g. to separate two LinearLayouts or TextViews (Hint: Set height 1dp with a light gray background)
+2. - [x] Show both icons and text in buttons (except home icon)
 3. - [x] Make ImageView display your photo with rounded corners (without editing your photo)
