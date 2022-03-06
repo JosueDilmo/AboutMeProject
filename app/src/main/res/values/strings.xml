@@ -1,11 +1,63 @@
 <resources>
     <string name="app_name">Josue Santos</string>
-    <string name="nameView">Josue Dilmo dos Santos</string>
     <string name="emailView">24061@student.dorset-college.ie</string>
-    <string name="introView">Josue Santos, Science Computing student.</string>
-    <string name="copyrightInfo">© Copyright Josue Santos 2022, Built with Android Studio</string>
+    <string name="introView">My name is Josue Dilmo dos Santos, I\'m 30 years old, Brazilian from Florianopolis, Santa Catarina.
+        I\'ve been living in Dublin since 2016 and when I firstly arrived in here it was just to do an internship to study English.
+    After few years living abroad in other countries, I realised that none of them gave me so many opportunities to keep progressing in life, whether through studies,
+        work, travel, meeting people, cultures, and many other things.
+    Now I\'m studying Computer Science at Dorset College and to be honest it\'s been a wonderful time.
+    My favorite subjects are the ones related with programming, I don\'t have a favorite programming language but I\'m enjoying C#. </string>
+    <string name="detailsView">Name: Josue Dilmo dos Santos\n
+        DoB: 06 April 1991\n
+        Nationality: Brazilian\n
+        City: Florianopolis\n
+        Arrival date: 17 July 2016 </string>
+    <string name="copyrightInfo">© Copyright Josue Santos 2022,\n Built with Android Studio</string>
     <string name="btnEducation">Education</string>
     <string name="btnSkill">Skills</string>
     <string name="btnHobbies">Hobbies</string>
     <string name="btnAchievement">Achievements</string>
+    <string name="education">Education</string>
+    <string name="btnHome">Home</string>
+    <string name="skills">Skills</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="achievements">Achievements</string>
+    <string name="closeApp">Exit</string>
+    <string name="educationIcon">Education Icon</string>
+    <string name="educationImage">Education Image</string>
+    <string name="skillsImage">Skills Image</string>
+    <string name="hobbiesImage">Hobbies Image</string>
+    <string name="achievementImage">Achievement Image</string>
+    <string name="dorsetIcon">Dorset Icon</string>
+    <string name="dorsetEducation">Institution: Dorset College\n
+        Course: Bachelor of Computer Science\n
+        Start at: 17 January 2021\n
+        Finish at: On course</string>
+    <string name="senacEducation">Institution: Senac College\n
+        Course: Bachelor of Information Technology Management\n
+        Start at: 06 December 2008\n
+        Finish at: 09 December 2011</string>
+    <string name="InstituteEducation">Institution: State Institute of Education\n
+        Course: Secondary School\n
+        Year of Conclusion: 2008</string>
+    <string name="skillsFirst">Object-Oriented Programming</string>
+    <string name="skillsSecond">Front-End Web Development</string>
+    <string name="skillsThird">Data Storage and Database Management</string>
+    <string name="skillsFourth">Operating Systems and Administration</string>
+    <string name="skillsFifth">Mobile App</string>
+    <string name="skillsSixth">DevOps</string>
+    <string name="skillsIcon">Skills Icon</string>
+    <string name="HobbiesIcon">Hobbies Icon</string>
+    <string name="hobbiesSurf">Hobbies Surf</string>
+    <string name="hobbiesPlay">Hobbies Play</string>
+    <string name="hobbiesNetflix">Hobbies Netflix</string>
+    <string name="hobbiesHike">Hobbies Hike</string>
+    <string name="AchievementIcon">Achievement Icon</string>
+    <string name="achievementText">At vero eos et accusamus et iusto odio dignissimos ducimus
+        qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+        sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi,
+        id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+        eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </string>
 </resources>

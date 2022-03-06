@@ -31,7 +31,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        exitIcon.setOnClickListener{
+            finishAffinity()
+        }
     }
-
-
 }

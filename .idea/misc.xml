@@ -3,12 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/achievements_icon.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/dorset_icon.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/education_icon.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/exit_icon.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/hobbies_icon.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/ic_baseline_edu_24.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/ic_baseline_ski_24.xml" value="0.2595" />
         <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/josuesantos.xml" value="0.124" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/drawable/skills_icon.xml" value="0.2595" />
         <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_achievements.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_education.xml" value="0.4" />
-        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_hobbies.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_education.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_hobbies.xml" value="0.20521446593776282" />
         <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_skills.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/Josue/BSC2-0921-Semester2/MobileApp1/AboutMeProject/app/src/main/res/layout/activity_skills.xml" value="0.264" />
       </map>
     </option>
   </component>

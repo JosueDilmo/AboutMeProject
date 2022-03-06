@@ -5,62 +5,110 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/dorsetIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/dorset_icon"
+            android:background="@color/black"
+            android:contentDescription="@string/dorsetIcon" />
+
+        <TextView
+            android:id="@+id/nameId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/app_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/exitIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/exit_icon"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="@string/closeApp" />
+    </LinearLayout>
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
         app:shapeAppearanceOverlay="@style/formatCircular"
-        app:srcCompat="@drawable/portfolio" />
+        app:srcCompat="@drawable/portfolio_img" />
+
+
     <TextView
-            android:id="@+id/nameView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="10dp"
-            android:fontFamily="sans-serif"
-            android:text="@string/nameView"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+        android:id="@+id/emailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="@string/emailView"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/emailView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="sans-serif"
-            android:text="@string/emailView"
-            android:textColor="#000000"
-            android:textSize="16sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@color/white">
 
-    <LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:orientation="horizontal"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:padding="10dp">
 
             <TextView
-                android:id="@+id/introView"
+                android:id="@+id/detailsView"
+                style="@style/TextBold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:text="@string/introView"
-                android:textColor="#000000"
-                android:textSize="16sp" />
-    </LinearLayout>
+                android:text="@string/detailsView"
+                android:paddingBottom="10dp"/>
 
+            <View
+                android:id="@+id/dividerMainTop"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/introView"
+                style="@style/FormatText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/introView"/>
+    </LinearLayout>
+</ScrollView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnEducation"
@@ -70,7 +118,9 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="10dp"
             android:padding="10dp"
-            />
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnSkill"
@@ -80,14 +130,15 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="10dp"
             android:padding="10dp"
-            />
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnHobbies"
@@ -97,7 +148,9 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="10dp"
             android:padding="10dp"
-            />
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnAchievement"
@@ -107,18 +160,27 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="10dp"
             android:padding="10dp"
-            />
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/copyrightView"
-        android:layout_width="200dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:paddingTop="10dp"
-        android:text="@string/copyrightInfo"
-        android:textStyle="bold"
-        android:textSize="12sp"/>
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="@color/white">
 
+        <TextView
+            android:id="@+id/copyrightView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/copyrightInfo"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 </LinearLayout>

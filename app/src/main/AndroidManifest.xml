@@ -10,19 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AboutMeProject">
         <activity
+            android:name=".AchievementsActivity"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".EducationActivity"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".HobbiesActivity"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".SkillsActivity"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EducationActivity" android:label="Education" />
-        <activity android:name="SkillsActivity" android:label="Skills" />
-        <activity android:name=".HobbiesActivity" android:label="Hobbies" />
-        <activity android:name=".AchievementsActivity" android:label="Achievements" />
-
     </application>
-
 </manifest>

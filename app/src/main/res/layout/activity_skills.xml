@@ -1,6 +1,261 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillsActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/skillsIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/skills_icon"
+            android:background="@color/black"
+            android:contentDescription="@string/skillsIcon" />
+
+        <TextView
+            android:id="@+id/skillsId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/skills"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/exitIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/exit_icon"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="@string/closeApp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/skillsImg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/skills_img"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:contentDescription="@string/skillsImage" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context=".SkillsActivity"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <View
+                android:id="@+id/dividerOne"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:id="@+id/skillsOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skillsFirst"
+                style="@style/TextBold"
+                android:textSize="18sp"
+                android:paddingTop="10dp"/>
+
+            <View
+                android:id="@+id/dividerTwo"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/SkillsTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skillsSecond"
+                style="@style/TextBold"
+                android:textSize="18sp"
+                android:paddingTop="10dp"/>
+
+            <View
+                android:id="@+id/dividerThree"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/SkillsThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skillsThird"
+                style="@style/TextBold"
+                android:textSize="18sp"
+                android:paddingTop="10dp"/>
+
+            <View
+                android:id="@+id/dividerFour"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/SkillsFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skillsFourth"
+                style="@style/TextBold"
+                android:textSize="18sp"
+                android:paddingTop="10dp"/>
+
+            <View
+                android:id="@+id/dividerFive"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/SkillsSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skillsFifth"
+                style="@style/TextBold"
+                android:textSize="18sp"
+                android:paddingTop="10dp"/>
+
+            <View
+                android:id="@+id/dividerSix"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/SkillsSeven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skillsSixth"
+                style="@style/TextBold"
+                android:textSize="18sp"
+                android:paddingTop="10dp"/>
+
+            <View
+                android:id="@+id/dividerEight"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:text="@string/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            android:text="@string/btnEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <Button
+            android:id="@+id/btnHobbies"
+            android:text="@string/btnHobbies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnAchievement"
+            android:text="@string/btnAchievement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/copyrightView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/copyrightInfo"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
